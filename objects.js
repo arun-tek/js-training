@@ -19,6 +19,7 @@ person["religion"] = "hindu";
 console.log(person);
 
 // temperaly add
+// ... ek ek value ko fetch karne ke liye use karte h
 console.log({...person, height: 6})
 
 console.log(person);
@@ -33,3 +34,7 @@ const employee = {
 }
 
 console.log(employee.full_name());
+
+// length of an object 
+
+console.log(Object.keys(person).length);

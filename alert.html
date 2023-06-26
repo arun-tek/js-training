@@ -8,6 +8,10 @@
 </head>
 <body>
     In this we see the alert commands.
+    <p id="demo"></p>
+    <!-- onclick event -->
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <button onclick="this.innerHTML = Date()">The time is?</button>
 </body>
 </html>
 <script>
